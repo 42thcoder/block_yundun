@@ -3,6 +3,12 @@ require 'capybara/rspec'
 require "bundler/setup"
 require "block_yundun"
 
+require 'simplecov'
+SimpleCov.start
+
+require 'codecov'
+SimpleCov.formatter = SimpleCov::Formatter::Codecov
+
 Dir[File.expand_path('../../apps/*.rb', __FILE__)].each {|file| require file}
 
 RSpec.configure do |config|
