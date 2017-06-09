@@ -1,6 +1,9 @@
 # BlockYundun
 
+[![Gem Version](https://img.shields.io/gem/v/block_yundun.svg)](https://img.shields.io/gem/v/block_yundun.svg)
 [![Build Status](https://travis-ci.org/42thcoder/block_yundun.svg?branch=master)](https://travis-ci.org/42thcoder/block_yundun)
+[![Code Coverage](https://img.shields.io/codecov/c/github/42thcoder/block_yundun.svg?branch=master)](https://img.shields.io/codecov/c/github/42thcoder/block_yundun.svg)
+[![Code Climate](https://img.shields.io/codeclimate/github/kabisaict/flow.svg)](https://img.shields.io/codeclimate/github/kabisaict/flow.svg)
 
 ## Installation
 
