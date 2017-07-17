@@ -15,7 +15,7 @@ module Rack
     private
     def match_yundun?(env)
       keywords = %w[Alibaba Security Heimdall]
-
+      return false if env['HTTP_USER_AGENT'].nil?
       keywords.any? {|keyword| env['HTTP_USER_AGENT'].include?(keyword)}
     end
 
